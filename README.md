@@ -40,7 +40,7 @@ These are the first 32 bits of the fractional parts of the cube roots of the fir
 
 5. Test the results against what is in the Secure Hash Standard.
 
-6. See: [Problem 2: Fractional Parts of Cube Roots](https://github.com/tomaspettit/CT-G00419414/blob/main/problems.ipynb)
+See: [Problem 2: Fractional Parts of Cube Roots](https://github.com/tomaspettit/CT-G00419414/blob/main/problems.ipynb)
 
 ### Problem 3
 
