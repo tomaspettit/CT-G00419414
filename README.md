@@ -27,6 +27,20 @@ These functions are defined in the Secure Hash Standard [see page 10](https://nv
 See: [Problem 1: Binary Words and Operations](https://github.com/tomaspettit/CT-G00419414/blob/main/problems.ipynb)
 
 ### Problem 2
+Use numpy to calculate the constants listed at the bottom of page 11 of the Secure Hash Standard, following the steps below.
+These are the first 32 bits of the fractional parts of the cube roots of the first 64 prime numbers.
+
+1. Write a function called `primes(n)` that generates the first n prime numbers.
+
+2. Use the function to calculate the cube root of the first 64 primes.
+
+3. For each cube root, extract the first thirty-two bits of the fractional part.
+
+4. Display the result in hexadecimal.
+
+5. Test the results against what is in the Secure Hash Standard.
+
+6. See: [Problem 2: Fractional Parts of Cube Roots](https://github.com/tomaspettit/CT-G00419414/blob/main/problems.ipynb)
 
 ### Problem 3
 
