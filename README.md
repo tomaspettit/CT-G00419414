@@ -40,9 +40,17 @@ These are the first 32 bits of the fractional parts of the cube roots of the fir
 
 5. Test the results against what is in the Secure Hash Standard.
 
-See: [Problem 2: Fractional Parts of Cube Roots](https://github.com/tomaspettit/CT-G00419414/blob/main/problems.ipynb)
+See: [Problem 2: Padding](https://github.com/tomaspettit/CT-G00419414/blob/main/problems.ipynb)
 
-### Problem 3
+### Problem 3:
+
+Write a [generator function](https://realpython.com/introduction-to-python-generators/) `block_parse(msg)` that processes messages according to section 5.1.1 and 5.2.1 of the Secure Hash Standard.
+The function should accept a [bytes object](https://realpython.com/python-bytes/) called `msg`.
+At each iteration, it should yield the next 512-bit block of `msg` as a bytes object.
+Ensure that the final block (or final two blocks) include the required padding of `msg` as specified in the standard.
+Test the generator with messages of different lengths to confirm proper padding and block output.
+
+See: [Problem 3: Fractional Parts of Cube Roots](https://github.com/tomaspettit/CT-G00419414/blob/main/problems.ipynb)
 
 ### Problem 4
 
